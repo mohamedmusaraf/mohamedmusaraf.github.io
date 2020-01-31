@@ -1,0 +1,48 @@
+def Tour_Winner (Strength):
+    # Write your code here
+    a2=list(Strength)
+  #  for i in range(0,N):
+  
+    for i in range(1,len(Strength)):
+        a=0
+        b=0
+        i=1
+        for j in range(0,len(Strength[0])):
+            #for k in range(j+1,len(Strength[0])):
+                #print(j,k)
+            if (Strength[i-1][j]>Strength[i][j]):
+                a+=1
+            elif (Strength[i-1][j]<Strength[i][j]):
+                b+=1
+            elif (Strength[i-1][j]==Strength[i][j]):
+                a+=1
+       # print(a,b)      #  print (a,b)
+        if(a>b):
+            del(Strength[i])
+            #
+            
+        else:
+            del(Strength[i-1])
+           # print(Strength)
+        #if(len(Strength)==1):
+         #   break
+   # print(Strength)
+    count=0
+    #print(a2)
+    for i in a2:
+        count+=1
+        if cmp(i,Strength[0]) == 0:
+            return count
+   # return Strength
+       
+
+T = input()
+for _ in xrange(T):
+    N = input()
+
+    Strength = []
+    for _ in xrange(N):
+        Strength.append(map(int, raw_input().split()))
+
+    out_ = Tour_Winner(Strength)
+    print out_
