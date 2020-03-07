@@ -1,480 +1,520 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Profile</title>
-     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
-        function Myfunction()
-        {
-            alert("Life Saver-A Blood Donating Website.In this website a donnr could register the details of his blood group,phono number,address and the receiptant could get the details of the donors .It is done by using HTML,CSS,Java Script,PHP");
-        }
-        function Myfunction2(){
-            alert("The real time weather data such as Temperature, Humidity are streamed and displayed in the dashboard using Dash framework in Python.In summary the steps are as follows.1. Collect the real time weather data from www.openweathermap.org.2. Store the consumed data continuously in HDFS.3. Store the data as structured data in Hive and query it using Presto Query Engine.4. Finally using Rest API interface and DASH Framework, display the Streamed data.");
-        }
-        function Myfunction3(){
-            alert("Internal Funded Project worth of 18,000/- offered by SSN College of Engineering to done a project on Smart Waste Managemnet and Monitoring System using Node mcu,Raspberry pi,IOT sensors");
-        }
-    </script>
+  <meta charset="utf-8">
+  <title>PROFILE -Mohamed Musaraf</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
     <style>
-        
-        .gallery:hover {
-  			transform: translate(2px,2px);
-            border: 8px black solid;
-  			
-
-		}
-
-		.gallery img {
-  			width: 100%;
-  			height: 70%;
-            border: 10px white solid;
- 			
-		}
-		.desc {
- 		padding: 5%;
-  		text-align: center;
-  		color: black;
-        font-size:20px;
-        
-		}
-		
-		.des{
-			text-align: center;
-			font-size: 30px;
-			color: black;
-
-		}
-        .interest-area{
-             position:relative;
-            background-color: #F1F1F1;
-            width:100%;
-            height:100%;
-        }
-        .project-area{
-            padding: 50px;
-            
-            position:relative;
-            background-color: #F1F1F1;
-            width:100%;
-            height:100%;
-            
-            
-        
-        }
-        .he{
-            font-family: arial;
-            font-size:22px;
-            color:#3c3c3c;
-            text-align: center;
-        }
-        .aboutme{
-            color: #20B2AA;
-            font-family: arial;
-            letter-spacing: 10px;
-            font-size:40px;
-            text-align: center;
-        }
-        #kimi{
-            width:auto;
-              height: auto;
-              padding-left:3%;
-              border-radius: 50%;
-              background-size: cover;
-              transition: 2s;
-        }
-           
-        #kimi:hover{
-            transform: scale(1.5,1.5);
-        }
-        #learn{
-            text-align: center;
-            font-size: 20px;
-            font-family: arial;
-            letter-spacing: 10px;
-        }
-        .abi{
-            text-align: center;
-            color:  	#20B2AA;
-            font-family: arial;
-            letter-spacing: 10px;
-            font-size:40px;
-        }
-        
-        #abii{
-            color:  	#20B2AA;
-            font-family: arial;
-            letter-spacing: 10px;
-            font-size:30px;
-            text-decoration: underline;
-        }
-        #abiii{
-            color:  	#20B2AA;
-            font-family: arial;
-            letter-spacing: 10px;
-            font-size:30px;
-            text-decoration: underline;
-        }
-        .checked {
-            color: #20B2AA;
-        }
-        .workshop-area{
-            padding: 40px;
-            position:relative;
-            background-color: #F1F1F1;
-            width:100%;
-            height:100%;
-              
-        }
-        .about-area{
-            padding: 50px;
-            position:relative;
-            background-color: #F1F1F1;
-            width:100%;
-            height:100%;
-              
-        }
-        .interest-area{
-            
-            padding: 60px;
-            position:relative;
-            background-color: #F1F1F1;
-            width:100%;
-            height:100%;
-              
-        }
-        .point{
-            padding:10px;
-            padding-left: 50px;
-            font-size:20px;
-            font-family: arial;
-            color:#3c3c3c;
-            
-        }
-        .ski{
-            font-size:45px;
-            font-family: arial;
-            padding-left: 100px; 
-            color: #20B2AA;
-            letter-spacing: 10px;
-            
-        }
-        table {  
-            color: #333;
-            font-family: Helvetica, Arial, sans-serif;
-            width: 100%; 
-            border-collapse: collapse; 
-            border-spacing: 0; 
-        }
-
-        td{  
-            border: 1px solid transparent; 
-            height: 27px; 
-            transition: all 0.3s;
-        }
-
-
-        tr{
-            font-size: 27px;
-            
-        }
-        td {  
-            width:50%;
-            background: #FAFAFA;
-            text-align: center;
-        }
-        tr:nth-child(even) td { background: #F1F1F1; }         
-        tr:nth-child(odd) td { background: #FEFEFE; }  
-        tr td:hover { background: #666; color: #FFF; }  
-        body{
-            margin: 0;
-            padding: 0;
-            font-family: Poppins;
-            background-color: #F1F1F1;
-            
-        }
-        .navbar{
-            
-            position: fixed;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            flex-wrap: wrap;
+        #mus{
             width: 100%;
-            
-            z-index: 1;
-        }
-        
-        .logo{
-            flex:1 1 auto;
-            margin-left: 1%;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: bold;
-            font-size: 2em;
-            font-family: 'Sofia';
-            color: #FFD700;
-            text-shadow: 3px 3px black;
-            
-        }
-        a{
-            margin: 10px;
-            color: #000;
-            text-decoration: none;
-            text-transform: uppercase;
-            
-        }
-        a:hover{
-            color:#000;
-        }
-        .banner-area{
-            position:relative;
-            width:100%;
-            height:100%;
-            background-color: #F1F1F1;
-        }
-        .fl{
-            text-align: end;
-        }
-       
-        #eee{
-            font-size:25px;
-            font-family: arial;
-            color:#3c3c3c;
-        }
-        #eee1{
-            font-size:25px;
-            font-family: arial;
-            color:#3c3c3c;
-        }
-        #eee2{
-            font-size:25px;
-            font-family: arial;
-            color:#3c3c3c;
-        }
-        #eee3{
-            font-size:25px;
-            font-family: arial;
-            color:#3c3c3c;
-        }
-        .jumbotron{
-            background-color:#C2DFFF;
-            
-        }
-        .nav .current{
-            background-color: red;
-        }
-        .wrapper{
-            display: grid;
-            grid-template-columns: 30% 30% 30%;
             height: 100%;
         }
-        .coo{
-            padding-left:2%;
-            padding-right:2%;
-            padding-top:19%;
-            padding-bottom:10%;
-        }
-        .pho{
-            padding-left: 20%;
-        }
-    
     </style>
 </head>
-<body>
-    <header>
-   <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
+
+<body id="page-top">
+
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#">
     <img src="clip.png" width="60" height="60" class="d-inline-block align-top" alt="">
   </a>
-                        
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse ml-auto" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">EDUCATION</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#project">PROJECT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#workshop" tabindex="-1" aria-disabled="true">ABILITIES</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#interest">OTHERS</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-        </div></header>
-    <div class="banner-area" id="home">
-        
-        <div class="container coo"><div class="col-lg-4 col-md-4 col-xs-9"><h1 class="aboutme">About me</h1><p class="he">I'm currently doing my <b>BE</b> degree in Computer Science Engineering at SSN College Of Engineering.</p><p class="he">I'm very much interested in Big data,Web Developing and Competitive Programming.</p></div><div class="imgdiv col-lg-4 col-md-4 col-xs-9"><img id="kimi" src="me.png"></div><div class="col-lg-4 col-md-4 col-xs-9"><h1 class="aboutme">Details</h1><p class="he">Name: Mohamed Musaraf.PM</p>
-        <p class="he">Contact: +91-9080504306</p><p class="he"> Age: 20</p>
-            <div class="pho"><a href="https://www.linkedin.com/in/mohamedmusaraf9080504306/"><img src="linked.png" height="50px" width="50px"></a><a href="https://mohamedmusaraf25@gmail.com"><img src="mail.png" height="50px" width="50px"></a><a href="https://instagram.com/mr_memorable05"><img src="insta.png" height="50px" width="50px"></a></div></div></div></div>
-    <div class="about-area" id="about"> 
-        <div class="text-part">
-            <br><br><br>
-        <h1 class="abi">Education</h1>
-                <p id="learn">"Build The Basement Strong"</p>
-        <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-            <div class="jumbotron"><div class="container"><h1 id="abii">Bachelor's Degree</h1><div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" ><p id="eee3">SSN College of Engineering<br>BE.Computer Science and Engineering<br>Current CGPA:8.02(5 semesters)</p></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fl" >
-                <p id="eee">Kalavakkam<br>2017-2021</p></div></div>
-                <div class="container">
-                    <h1 id="abiii">High School</h1>
-          <!--  <img src="cse.png" height="200px" width="200px">-->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" >
-                    <p id="eee1">St Mary's Anglo Indian Higher Secondary School<br>SSLC-97.6%<br>HSC-94.6%</p></div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fl" ><p id="eee2">Chennai<br>May,2015<br>May,2017</p><!--<img src="stm.jpg" height="200px" width="200px">--></div></div></div>
-            
-            
-        </div></div>
-    <div class="project-area" id="project">    <div class="text-part">
-        <br><br><br>
-        <h1 class="abi">Projects</h1>
-                <p id="learn">"Practice with what you Learn"</p>
-        <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-     <div class="row text-center text-lg-left">
-	<div class="gallery col-lg-4 col-md-4 col-xs-12">
-  	
-    	<img src="blood.png" alt="blood website" onclick="Myfunction()">
-  	
-  	<div class="desc">Life Saver-A Blood Donating Website</div>
-	</div>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
 
-	<div class="gallery col-lg-4 col-md-4 col-xs-12">
-    	<img src="weather.png" alt="BIG DATA" onclick="Myfunction2()">
-  	<div class="desc">Real Time Weather Data Streaming</div>
-	</div>
-	<div class="gallery col-lg-4 col-md-4 col-xs-12">
-    	<img src="dust.jpg " alt="IFP" onclick="Myfunction3()">
-  	<div class="desc">Smart Waste Management and Monitoring System</div>
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(3.png)">
+    <div class="overlay-itro"></div>    
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">I am Mohamed Musaraf</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">SSN College of Engineering,Web Developer,Competitive Programmer</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="1.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Mohamed Musaraf P M</span></p>
+                     
+                      <p><span class="title-s">Email: </span> <span><a href="mohamedmusaraf25@gmail.com">mohamedmusaraf25@gmail.com</a></span>
+                        <span>mohamedmusaraf17087@cse.ssn.edu.in</span></p>
+                      <p><span class="title-s">Phone: </span> <span>9080504306</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>C</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>C++</span> <span class="pull-right">70%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                    <span>Python</span> <span class="pull-right">60%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>JAVA</span> <span class="pull-right">50%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>HTML</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                      <span>CSS</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>JAVA SCRIPT</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>NODE JS</span> <span class="pull-right">50%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>SQL</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                    <span>Android Studio</span> <span class="pull-right">60%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    I'm very much interested in Web developing,Competitive Programming and taking part in competitions like hackathon etc.
+                  </p>
+                    <div class="title-box-2">
+                    <h5 class="title-left">
+                      Online Courses
+                    </h5>
+                  </div>
+                  <p class="lead">
+                       <span class="ion-ios-checkmark"></span> JavaScript for Web Development
+<br><br>
+   <span class="ion-ios-checkmark"></span>  The Complete Frontend Development Bootcamp
+                  </p>
+                    <div class="title-box-2">
+                    <h5 class="title-left">
+                      Workshop
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    
+
+    <span class="ion-ios-checkmark"></span> Workshop on IOT basics-Pantech solutions,Chennai
+<br><br>
+   <span class="ion-ios-checkmark"></span>  Workshop on Streaming Analytics of Big Data -SSN college of Engineering,Chennai
+<br><br>
+   <span class="ion-ios-checkmark"></span>  Workshop on Machine learning by Google -SSN college of Engineering,Chennai
+                  </p>
+                    <div class="title-box-2">
+                    <h5 class="title-left">
+                      Hackathon
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    
+
+   <span class="ion-ios-checkmark"></span>  Participated in SASTRA UNIVERSITY DAKSH 2k20 hackathon
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Education
+            </h3>
+            <p class="subtitle-a">
+              Build The Basement Strong
+            </p>
+              <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+              <h2 class="s-title">SSLC</h2>
+              <p class="s-description text-center">
+                St Mary's Anglo Indian Higher Secondary School<br>
+                  SSLC
+                  <br>Year Passed: 2015 <br>Percentage:     97.6%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+             <h2 class="s-title">HSC</h2>
+              <p class="s-description text-center">
+                St Mary's Anglo Indian Higher Secondary School<br>
+                  HSC
+                  <br>Year Passed: 2017 <br>Percentage:     94.6%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            
+            <div class="service-content">
+              <h2 class="s-title">Bachelor's Degree</h2>
+              <p class="s-description text-center">
+                  BE.Computer Science and Engineering<br>
+                SSN College of Engineering <br>
+                  Graduation year:2021
+                  <br>
+                  CGPA:8.02/10
+                  <br>Out of 5 Semesters
+              </p>
+            </div>
+          </div>
         </div>
         
-        </div></div>
-    <div class="workshop-area" id="workshop">    <div class="text-part">
-        <br><br><br>
-        <h1 class="abi">Abilities</h1>
-        <p id="learn">"Learn with Fun to do it Perfect"</p>
-        <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-        <h1 class="ski">Skills</h1>
-        <table width="100%">
-        <tr><td>C </td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>C++ </td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>Python </td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>JAVA</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star "></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>HTML</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>CSS</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span> </td></tr>
-        <tr><td>Java Script</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span></td></tr>
-        
-        <tr><td>Node JS</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>Hadoop</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>SQL</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>Android Studio</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span></td></tr>
-        <tr><td>Node mcu</td>
-            <td class="star"><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span></td></tr></table></div></div>
-    <div class="interest-area co2" id="interest">    <div class="text-part">
-        <h1 class="abi">Courses</h1>
 
-        <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
+    </div>
+  </div>
+
+  <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Projects
+            </h3>
+            <p class="subtitle-a">
+              Build Things That Matters!
+            </p>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="dust.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="dust.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">SMART WASTE MONITORING AND REPORTING SYSTEM</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">IOT</span> / <span class="w-date">2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="blood.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="blood.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">LIFE SAVER - A Blood donating website</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">2019</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="weather.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="weather.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Real Time Weather Data Analysis</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Big Data</span> / <span class="w-date">2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="iris.jpeg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="iris.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">IRIS Data Analysis</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">ML and Data Mining</span> / <span class="w-date">2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="login.PNG" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="login.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">SHOPPING CART</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="nodemcu.png" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="nodemcu.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Weather Prediction using Real Time sensor Data</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Node MCU and ML</span> / <span class="w-date">2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
         
-        <ul><li><p class="point">JavaScript for Web Development
-</p></li><li><p class="point">The Complete Frontend Development Bootcamp</p></li></ul>
-        <h1 class="abi">Workshops</h1>
-        <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-        <ul><li>
-        <p class="point">Workshop on IOT basics-Pantech solutions,Chennai</p></li>
-        <li><p class="point">Workshop on Streaming Analytics of Big Data -SSN college of
-Engineering,Chennai</p></li>
-<li><p class="point">Workshop on Machine learning by Google -SSN college of
-Engineering,Chennai</p></li></ul>
-        <h1 class="abi">Hackathon</h1>
-        <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-        <ul><li>
-        <p class="point">Participated in SASTRA UNIVERSITY DAKSH 2k20 hackathon</p></li>
-        </ul>
-        </div></div>    
-    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</body>
+      </div>
+    </div>
+  </section>
+
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      MY Lovely College
+                    </h5>
+                  </div>
+                  <div>
+                     <img id="mus" src="ssn.jpg"> 
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                        MORE INFO
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span>24/
+                        49,Portuguese Church Street ,Chennai -600001</li>
+                      <li><span class="ion-ios-telephone"></span> 9080504306</li>
+                      <li><span class="ion-email"></span> mohamedmusaraf25@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/mohamedmusaraf9080504306/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href="https://instagram.com/mr_memorable05"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      
+                      <li><a href="https://github.com/mohamedmusaraf/"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                    
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">   
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>Mohamed Musaraf</strong>. All Rights Reserved</p>
+              <div class="credits">
+               
+                Designed by <a href="https://github.com/mohamedmusaraf/">MM</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+      </body></body>
 </html>
