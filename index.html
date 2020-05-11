@@ -2,20 +2,12 @@
 <html>
 <head>
     <title>My Profile</title>
-     <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script>
         function Myfunction()
         {
@@ -30,7 +22,12 @@
     </script>
 
     <style>
-        
+        .gallery {
+ 			margin: 20px;
+  			float: left;
+  			width: 400px;	
+  			
+		}
         .gallery:hover {
   			transform: translate(2px,2px);
             border: 8px black solid;
@@ -40,18 +37,29 @@
 
 		.gallery img {
   			width: 100%;
-  			height: 70%;
+  			height: 350px;
             border: 10px white solid;
  			
 		}
 		.desc {
- 		padding: 5%;
+ 		padding: 15px;
   		text-align: center;
   		color: black;
         font-size:20px;
         
 		}
+		.flex-container{
+			display: flex;
+			justify-content: center;
+			margin: 80px;
+		}
 		
+		.image img{
+			width: 400px;
+  			height: 350px;
+  			float: left;
+  			margin: 20px;
+		}
 		.des{
 			text-align: center;
 			font-size: 30px;
@@ -62,7 +70,7 @@
              position:relative;
             background-color: #F1F1F1;
             width:100%;
-            height:100%;
+            height:100vh;
         }
         .project-area{
             padding: 50px;
@@ -70,7 +78,7 @@
             position:relative;
             background-color: #F1F1F1;
             width:100%;
-            height:100%;
+            height:100vh;
             
             
         
@@ -79,25 +87,26 @@
             font-family: arial;
             font-size:22px;
             color:#3c3c3c;
-            text-align: center;
         }
         .aboutme{
-            color: #20B2AA;
+                        color:  	#20B2AA;
             font-family: arial;
             letter-spacing: 10px;
-            font-size:40px;
-            text-align: center;
+            font-size:50px;
         }
-        #kimi{
-            width:auto;
-              height: auto;
-              padding-left:3%;
+        .coo{
+            padding-top:250px;
+            padding-left: 100px;
+        }
+                .imgdiv {
+              width: 300px;
+              height: 300px;
+              background-image: url("me.png");
               border-radius: 50%;
               background-size: cover;
               transition: 2s;
-        }
-           
-        #kimi:hover{
+            }
+        .imgdiv:hover{
             transform: scale(1.5,1.5);
         }
         #learn{
@@ -111,9 +120,8 @@
             color:  	#20B2AA;
             font-family: arial;
             letter-spacing: 10px;
-            font-size:40px;
+            font-size:50px;
         }
-        
         #abii{
             color:  	#20B2AA;
             font-family: arial;
@@ -136,7 +144,7 @@
             position:relative;
             background-color: #F1F1F1;
             width:100%;
-            height:100%;
+            height:100vh;
               
         }
         .about-area{
@@ -144,22 +152,22 @@
             position:relative;
             background-color: #F1F1F1;
             width:100%;
-            height:100%;
+            height:100vh;
               
         }
         .interest-area{
             
-            padding: 60px;
+            padding: 80px;
             position:relative;
             background-color: #F1F1F1;
             width:100%;
-            height:100%;
+            height:100vh;
               
         }
         .point{
             padding:10px;
             padding-left: 50px;
-            font-size:20px;
+            font-size:25px;
             font-family: arial;
             color:#3c3c3c;
             
@@ -215,24 +223,29 @@
             flex-direction: row;
             flex-wrap: wrap;
             width: 100%;
-            
+            height: 50px;
             z-index: 1;
         }
-        
+        .nav{
+            background-image:linear-gradient(to right,rgba(32,178,170,0),rgba(32,178,170,1));
+            display: flex;
+            justify-content: right;
+            margin-right: 5%;
+        }
         .logo{
             flex:1 1 auto;
-            margin-left: 1%;
+            margin-left: 5%;
             text-transform: uppercase;
             letter-spacing: 1px;
             font-weight: bold;
-            font-size: 2em;
+            font-size: 35px;
             font-family: 'Sofia';
             color: #FFD700;
             text-shadow: 3px 3px black;
             
         }
         a{
-            margin: 10px;
+            margin: 15px;
             color: #000;
             text-decoration: none;
             text-transform: uppercase;
@@ -243,8 +256,9 @@
         }
         .banner-area{
             position:relative;
+
             width:100%;
-            height:100%;
+            height:100vh;
             background-color: #F1F1F1;
         }
         .fl{
@@ -278,63 +292,27 @@
         .nav .current{
             background-color: red;
         }
-        .wrapper{
-            display: grid;
-            grid-template-columns: 30% 30% 30%;
-            height: 100%;
-        }
-        .coo{
-            padding-left:2%;
-            padding-right:2%;
-            padding-top:19%;
-            padding-bottom:10%;
-        }
-        .pho{
-            padding-left: 20%;
-        }
     
     </style>
 </head>
 <body>
-    <header>
-   <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="clip.png" width="60" height="60" class="d-inline-block align-top" alt="">
-  </a>
-                        
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse ml-auto" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">EDUCATION</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#project">PROJECT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#workshop" tabindex="-1" aria-disabled="true">ABILITIES</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#interest">OTHERS</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-        </div></header>
-    <div class="banner-area" id="home">
-        
-        <div class="container coo"><div class="col-lg-4 col-md-4 col-xs-9"><h1 class="aboutme">About me</h1><p class="he">I'm currently doing my <b>BE</b> degree in Computer Science Engineering at SSN College Of Engineering.</p><p class="he">I'm very much interested in Big data,Web Developing and Competitive Programming.</p></div><div class="imgdiv col-lg-4 col-md-4 col-xs-9"><img id="kimi" src="me.png"></div><div class="col-lg-4 col-md-4 col-xs-9"><h1 class="aboutme">Details</h1><p class="he">Name: Mohamed Musaraf.PM</p>
-        <p class="he">Contact: +91-9080504306</p><p class="he"> Age: 20</p>
-            <div class="pho"><a href="https://www.linkedin.com/in/mohamedmusaraf9080504306/"><img src="linked.png" height="50px" width="50px"></a><a href="https://mohamedmusaraf25@gmail.com"><img src="mail.png" height="50px" width="50px"></a><a href="https://instagram.com/mr_memorable05"><img src="insta.png" height="50px" width="50px"></a></div></div></div></div>
+    
+    <div class="navbar">
+        <a href="#" class="logo"><img src="clip.png" height="100px" width="100px">Musaraf</a>
+        <ul class="nav">
+        <li><a class="currrent" href="#home">Home</a></li>
+            <li><a href="#about">Education</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#workshop">Abilities</a></li>
+            <li><a href="#interest">Others</a></li>
+            
+        </ul>
+    </div> 
+    <div class="banner-area" id="home"><div class="container coo"><div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" ><h1 class="aboutme">About me</h1><p class="he">I'm currently doing my <b>BE</b> degree in Computer Science Engineering at SSN College Of Engineering.</p><p class="he">I'm very much interested in Big data,Web Developing and Competitive Programming.</p></div><div class="imgdiv col-lg-4 col-md-4 col-sm-4 col-xs-4"></div><div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" ><h1 class="aboutme">Details</h1><p class="he">Name:Mohamed Musaraf.PM</p>
+        <p class="he">Age:20</p>
+        <p class="he">Contact:+91-9080504306</p><a href="https://www.linkedin.com/in/mohamedmusaraf9080504306/"><img src="linked.png" height="50px" width="50px"></a><a href="https://mohamedmusaraf25@gmail.com"><img src="mail.png" height="50px" width="50px"></a><a href="https://instagram.com/mr_memorable05"><img src="insta.png" height="50px" width="50px"></a></div></div></div>
     <div class="about-area" id="about"> 
         <div class="text-part">
-            <br><br><br>
         <h1 class="abi">Education</h1>
                 <p id="learn">"Build The Basement Strong"</p>
         <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
@@ -350,31 +328,28 @@
             
         </div></div>
     <div class="project-area" id="project">    <div class="text-part">
-        <br><br><br>
         <h1 class="abi">Projects</h1>
                 <p id="learn">"Practice with what you Learn"</p>
         <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-     <div class="row text-center text-lg-left">
-	<div class="gallery col-lg-4 col-md-4 col-xs-12">
+        <div class="flex-container">
+	<div class="gallery">
   	
     	<img src="blood.png" alt="blood website" onclick="Myfunction()">
   	
   	<div class="desc">Life Saver-A Blood Donating Website</div>
 	</div>
 
-	<div class="gallery col-lg-4 col-md-4 col-xs-12">
+	<div class="gallery">
     	<img src="weather.png" alt="BIG DATA" onclick="Myfunction2()">
   	<div class="desc">Real Time Weather Data Streaming</div>
 	</div>
-	<div class="gallery col-lg-4 col-md-4 col-xs-12">
-    	<img src="dust.jpg " alt="IFP" onclick="Myfunction3()">
+	<div class="gallery">
+    	<img src="dust.jpg" alt="IFP" onclick="Myfunction3()">
   	<div class="desc">Smart Waste Management and Monitoring System</div>
-            </div>
-        </div>
+            </div></div>
         
         </div></div>
     <div class="workshop-area" id="workshop">    <div class="text-part">
-        <br><br><br>
         <h1 class="abi">Abilities</h1>
         <p id="learn">"Learn with Fun to do it Perfect"</p>
         <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
@@ -422,7 +397,12 @@
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span></td></tr>
-        
+        <tr><td>Express</td>
+            <td class="star"><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></td></tr>
         <tr><td>Node JS</td>
             <td class="star"><span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -450,14 +430,12 @@
         <tr><td>Node mcu</td>
             <td class="star"><span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span></td></tr></table></div></div>
-    <div class="interest-area co2" id="interest">    <div class="text-part">
-        <h1 class="abi">Courses</h1>
-
+    <div class="interest-area" id="interest">    <div class="text-part">
+        <h1 class="abi">Courses and Certificates</h1>
         <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-        
         <ul><li><p class="point">JavaScript for Web Development
 </p></li><li><p class="point">The Complete Frontend Development Bootcamp</p></li></ul>
         <h1 class="abi">Workshops</h1>
@@ -468,11 +446,6 @@
 Engineering,Chennai</p></li>
 <li><p class="point">Workshop on Machine learning by Google -SSN college of
 Engineering,Chennai</p></li></ul>
-        <h1 class="abi">Hackathon</h1>
-        <hr style="height:1px; border:none; color:#20B2AA; background-color:#20B2AA;">
-        <ul><li>
-        <p class="point">Participated in SASTRA UNIVERSITY DAKSH 2k20 hackathon</p></li>
-        </ul>
         </div></div>    
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
