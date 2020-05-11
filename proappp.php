@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <title>Life Saver</title>
@@ -47,8 +47,6 @@
                 font-weight: 900;
                 font-family: Comic Sans MS;
                 
-               
-                
             }
          
         
@@ -83,9 +81,8 @@
 				<ul class="nav navbar-nav navbar-right">
                     <li><a href="search.php">Search<i class="fa fa-search"> </i>
                         </a></li>
-                    <li><a href="FormSolution.html">Sign Up  <i class="fa fa-user-plus"> </i>
-                        </a></li>
-                    <li><a href="login.php">Login <i class="fa fa-user"></i></a></li>
+
+                    <li><a href="">USER <i class="fa fa-user"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -98,7 +95,7 @@
                 <h1>Life Saver</h1>
                 <h3>A Blood Donating Website</h3>
                 <hr>
-                    <button class="btn btn-default btn lg"><a href="FormSolution.html">Donate Blood!</a></button></div>
+                
                 </div>
             </div>
         
@@ -117,7 +114,7 @@
          <div class="container">  
      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"> <iframe width="500" height="300" src="https://www.youtube.com/embed/7HXJyMjUBqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                 <div class="container"><h3 id="col"><u>June-14 World Blood Donor Day!</u></h3>
+            <div class="container"><h3 id="col">June-14 World Blood Donor Day!</h3>
                  <p>This is one special day that we have to celebrate. This is the moment we have to memorize the great personality and Nobel Prize recipient Karl Landsteiner. He is the man behind the discovery of ABO blood group system. Now, everybody has awareness of blood group system and importance of blood donation.</p></div>
            
         </div>
