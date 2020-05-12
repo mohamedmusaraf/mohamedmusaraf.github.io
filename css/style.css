@@ -1,3 +1,4 @@
+
 input[type=submit] {
   padding-top: 1%;
   padding-bottom: 1%;
@@ -69,9 +70,7 @@ a:hover {
 .paralax-mf,
 .service-box,
 .work-box,
-.card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
-}
+
 
 .box-shadow-a,
 .button:hover {
@@ -236,12 +235,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #92fc07;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #92fc07;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -630,10 +629,40 @@ nav{
 
 .intro .intro-title {
   color: #92fc07;
+  text-shadow: 1px 1px 5px black;
   padding-right:1%;
+  
   font-weight: 400;
   font-size: 1rem;
 }
+.intro .intro-title2 {
+  color: #000;
+  text-shadow: 1px 1px 5px black;
+  padding-right:1%;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+}
+@media (max-width:992px)
+{
+
+.intro .intro-title {
+  color: #92fc07;
+  text-shadow: 0.5px 0.5px 1.5px black;
+  padding-right:1%;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.intro .intro-title2 {
+  color: #000;
+  text-shadow: 1px 1px 5px black;
+  padding-right:1%;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+}
+
 
 .intro .intro-subtitle {
   font-size: 1.5rem;
@@ -656,6 +685,11 @@ nav{
   text-transform: uppercase;
   font-size: 3rem;
 }
+.intro-single .intro-title2 {
+  text-transform: uppercase;
+  font-size: 0.5rem;
+}
+
 
 .intro-single .breadcrumb {
   background-color: transparent;
@@ -856,56 +890,8 @@ nav{
   line-height: 1.6;
 }
 
-.card-blog .card-body {
-  position: relative;
-}
 
-.card-blog .card-category-box {
-  position: absolute;
-  text-align: center;
-  top: -16px;
-  left: 15px;
-  right: 15px;
-  line-height: 25px;
-  overflow: hidden;
-}
 
-.card-blog .card-category {
-  display: inline-block;
-  color: #fff;
-  padding: 0 15px 5px;
-  overflow: hidden;
-  background-color: #0078ff;
-  border-radius: 4px;
-}
-
-.card-blog .card-category .category {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
-  margin-bottom: 0;
-}
-
-.card-blog .card-title {
-  font-size: 1.3rem;
-  margin-top: .6rem;
-}
-
-.card-blog .card-description {
-  color: #4e4e4e;
-}
-
-.card-blog .post-author {
-  display: inline-block;
-}
-
-.card-blog .post-date {
-  color: #4e4e4e;
-  display: inline-block;
-  float: right;
-}
 
 
 .post-box,
@@ -1163,9 +1149,7 @@ footer .credits a {
     padding-left: 0rem;
   }
 
-  .card-blog {
-    margin-bottom: 3rem;
-  }
+  
 
   .contact-mf .box-pl2 {
     margin-top: 3rem;
@@ -1191,12 +1175,18 @@ footer .credits a {
   .intro .intro-title {
     font-size: 4.5rem;
   }
+  .intro .intro-title2 {
+    font-size: 4.5rem;
+  }
 
   .intro .intro-subtitle {
     font-size: 2.5rem;
   }
 
   .intro-single .intro-title {
+    font-size: 3.5rem;
+  }
+  .intro-single .intro-title2 {
     font-size: 3.5rem;
   }
 
