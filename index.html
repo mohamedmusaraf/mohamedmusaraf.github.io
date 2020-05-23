@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Asul' rel='stylesheet'>
+  <link href="new.css" rel="stylesheet">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Crete Round' rel='stylesheet'>
+ 
+  <script src="new.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  
+  <style>
+    header .carousel-inner .item{
+    height: 100vh;
+    }
+    
+    .banner{
+      -webkit-background-size :cover;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .navbar-inverse{
+      background-color: transparent;
+      border-color: transparent;
+    }
+    .navbar-inverse .navbar-brand{
+      color:#fff;
+      padding: 40px 15px;
+      font-weight: 900;
+    }
+    .nav .navbar-nav .navvbar-right{
+      margin: 25px 0;
+    }
+    .navbar-inverse .navbar-nav> li>a{
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .carousel-caption{
+      padding-bottom: 250px;
+      font-family: poppins;
+    }
+    .carousel-caption h2{
+      font-size: 55px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .carousel-caption h2 span{
+      color: #9cfc07;
+    }
+    .carousel-caption h3 span{
+      color: #9cfc07;
+    }
+    .carousel-caption a{
+      
+      padding:15px 35px;
+      display: inline-block;
+      margin-top: 15px;
+      color: #fff;
+      text-transform: uppercase;
+      border-radius: 25px;
+      background: #9cfc07;
+     
+    }
+    .carousel-control.right{
+      background-image: none;
+    }
+    .carousel-caption h3{
+      text-shadow: 2px 2px 3px black;
+      }
+    .carousel-control.left{
+      background-image: none;
+    }
+    .carousel-indicators .active{
+      background-color: #9cfc07;
+      border-color: #9cfc07;
+    }
+    @media only screen and (max-width:767px) {
+      .navbar-inverse .navbar-brand{
+        font-size: 30px;
+        padding: 20px 15px;
+      }
+      .navbar-collapse{
+        background: rgba(0,0,0,0.5);
+      }
+      
+      .carousel-caption h2{
+        font-size: 25px;
+      }
+      .carousel-caption h3{
+        font-size: 18px;
+      }
+      .carousel-caption a{
+        padding: 10px 25px;
+      }
+      .linkbar{
+      margin-top: 15px;
+      
+      }
+      
+    }
+    @media only screen and (min-width: 768px;) and (max-width:991px) {
+      .carousel-caption {
+        padding-bottom: 350px;
+      }
+      .carousel-caption h2{
+        font-size: 50px;
+      }
+    }
+    .linkbar{
+      margin-top: 25px;
+      
+    }
+    .navbar-inverse{
+      background: rgba(0,0,0,0.7);
+    }
+    
+  </style>
+
+</head>
+<body>
+  
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container rr">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">AUTOBOTS</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       
+        <ul class="nav navbar-nav navbar-right">
+          <li ><a class="linkbar" href="#">HOME</a></li>
+          <li><a class="linkbar" href="#service">PROJECTS</a></li>
+          <li><a class="linkbar" href="#">TEAM</a></li>
+          <li><a class="linkbar"href="#">TESTIMONIAL</a></li>
+          <li><a class="linkbar"href="#">CONTACT</a></li>
+         
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="banner" style="background-image: url(17.jpg);"></div>
+        <div class="carousel-caption">
+          <h2 class="animate__animated animate__bounceInRight" style="animation-delay: 0.5s;">AUTOBOTS <span>ROBOT</span>ICS</h2>
+          <h3 class="animate__animated animate__bounceInLeft" style="animation-delay: 1s;">Our <span>Robots</span> For your <span>Future</span></h3>
+          <a class="animate__animated animate__bounceInRight" style="animation-delay: 1.5s;" href="#">Get Started</a>
+        </div>
+      </div>
+      <div class="item">
+        <div class="banner" style="background-image: url(14.jpg);"></div>
+        <div class="carousel-caption">
+          <h2 class="animate__animated animate__bounceInRight" style="animation-delay: 0.5s;"><span>DRONE</span> PRODUCTS</h2>
+          <h3 class="animate__animated animate__bounceInLeft" style="animation-delay: 1s;">"Just find your Dream and teach it to<span>FLY</span>"</h3>
+          <a class="animate__animated animate__bounceInRight" style="animation-delay: 1.5s;" href="#">Get Started</a>
+        </div>
+          
+        </div>
+        <div class="item">
+          <div class="banner" style="background-image: url(19.jpg);"></div>
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__bounceInRight" style="animation-delay: 0.5s;"><span>EMBEDDED</span> SYSTEMS</h2>
+            <h3 class="animate__animated animate__bounceInLeft" style="animation-delay: 1s;">"<span>Life</span> is an embedded system designed by <span>GOD</span>"</h3>
+            <a class="animate__animated animate__bounceInRight" style="animation-delay: 1.5s;" href="#">Get Started</a>
+          </div>
+            
+          </div>
+      </div>
+      
+    </div>
+  
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <section id="service" class="services-mf route" style="background-color: #fff;/* Standard syntax (must be last) */
+      }" > <br><br>
+          <div class="heading-title text-center">
+            <h3 class="text-uppercase">Our projects</h3>
+          </div>
+          <main class="container">
+            <section class="card card1" data-aos="fade-up">
+              <img class="imgclass" src="robo.jpg" alt="" />
+              <div>
+                <h3>Project Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.
+                </p>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </section>
+      
+            <section class="card card1" data-aos="fade-left">
+              <img class="imgclass" src="robo.jpg" alt="" />
+              <div>
+                <h3>Project Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.
+                </p>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </section>
+      
+            <section class="card card1" data-aos="fade-right">
+              <img class="imgclass" src="robo.jpg" alt="" />
+              <div>
+                <h3>Project Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.
+                </p>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </section>
+      
+            <section class="card card1" data-aos="fade-left">
+              <img class="imgclass" src="robo.jpg" alt="" />
+              <div>
+                <h3>Project Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.
+                </p>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </section>
+      
+            <section class="card card1" data-aos="fade-right">
+              <img class="imgclass" src="robo.jpg" alt="" />
+              <div>
+                <h3>Project Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.
+                </p>
+                <a href="#" class="btn">Buy Now</a>
+              </div>
+            </section>
+          </main>
+          
+        </section>
+
+        <section id="about" style="background-color: #000;" >
+          <!-- TESTIMONIALS -->
+          <h1 id="testh3">WORDS OF LOVE</h1>
+<section class="testimonials">
+	<div class="container">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="test.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.</p>
+              </div>
+              <div class="testimonial-name">Person Name1</div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="test.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.</p>
+              </div>
+              <div class="testimonial-name">Person Name2</div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="test.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.</p>
+              </div>
+              <div class="testimonial-name">Person Name3</div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="test.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.</p>
+              </div>
+              <div class="testimonial-name">Person Name4</div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="test.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+                  enim laudantium, animi veniam libero eveniet culpa unde perferendis
+                  illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+                  officia. Ab, delectus.</p>
+              </div>
+              <div class="testimonial-name">Person Name5</div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
+        </section>
+        <section id="work" class="portfolio-mf sect-pt4 route" style="background-color: #fff;">
+          
+         
+ 
+  <div class="container" >
+    <div class="row"  >
+        <div class="heading-title text-center">
+            <h3 class="text-uppercase">Our professionals </h3>
+           
+        </div>
+
+        
+        <div class="col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="1000">
+          <div class="team-member">
+              <div class="team-img">
+                  <img src="https://image.freepik.com/free-photo/well-dressed-executive-with-crossed-arms_1098-3930.jpg" alt="team member" class="img-responsive">
+              </div>
+              <div class="team-hover">
+                  <div class="desk">
+                      <h4>Hi There !</h4>
+                      <p>I love to introduce myself as a Robotic designer.</p>
+                  </div>
+                  <div class="s-link">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="team-title">
+              <h5>Name 1</h5>
+              <span>founder & ceo</span>
+          </div>
+      </div><div class="col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="1500">
+        <div class="team-member">
+            <div class="team-img">
+                <img src="https://image.freepik.com/free-photo/well-dressed-executive-with-crossed-arms_1098-3930.jpg" alt="team member" class="img-responsive">
+            </div>
+            <div class="team-hover">
+                <div class="desk">
+                    <h4>Hi There !</h4>
+                    <p>I love to introduce myself as a Robotic designer.</p>
+                </div>
+                <div class="s-link">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="team-title">
+            <h5>Name 2</h5>
+            <span>Co-founder</span>
+        </div>
+    </div>
+        <div class="col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="2000">
+            <div class="team-member">
+                <div class="team-img">
+                    <img src="https://image.freepik.com/free-photo/well-dressed-executive-with-crossed-arms_1098-3930.jpg" alt="team member" class="img-responsive">
+                </div>
+                <div class="team-hover">
+                    <div class="desk">
+                        <h4>Hello World</h4>
+                        <p>I love to introduce myself as a Robotic designer.</p>
+                    </div>
+                    <div class="s-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-title">
+                <h5>Name 3</h5>
+                <span>HR Manager</span>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="2500">
+            <div class="team-member">
+                <div class="team-img">
+                    <img src="https://image.freepik.com/free-photo/well-dressed-executive-with-crossed-arms_1098-3930.jpg" alt="team member" class="img-responsive">
+                </div>
+                <div class="team-hover">
+                    <div class="desk">
+                        <h4>I love to Build</h4>
+                        <p>I love to introduce myself as a Robotic designer.</p>
+                    </div>
+                    <div class="s-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-title">
+                <h5>Name 4</h5>
+                <span>Marketing Manager</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>       
+
+				    
+				
+
+         </section>
+
+       
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(green2.jpg)">
+    
+    <div class="overlay-mf"></div>
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <h1 id="testh2">CONTACT US</h1>
+                <br><br>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-leftnew">
+                      ADDRESS
+                    </h5>
+                  </div>
+                  <h5>Autobots Robotics
+<br>
+                    898, sector-5, vaishali
+                    <br>
+                    Ghaziabad – 201010
+                    <br>
+                    Mob. No. - +91 7017242854 </h5>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="#"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                        <li><a href="#"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                        
+                        <li><a href="#"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                      
+                      </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-leftnew" >
+                        SUGGESTION
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <form action="#">
+                      <div>
+                      <label for="fname">Name</label>
+                      <input type="text" id="fname" name="fname" placeholder="Enter your name"><br>
+                    </div>
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                      <label for="suggession">Suggestion</label><br>
+                      <textarea placeholder="Describe your Suggestion" rows="4" cols="25" name="comment" >
+                        
+                      </textarea><br><br>
+                      <input type="submit" value="Submit">
+                    </form> 
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+     
+    </footer>
+  </section>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <script src="contactform/contactform.js"></script>
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2500);    
+    }
+    </script>
+  <script>
+    jQuery(document).ready(function($) {
+        		"use strict";
+        		
+		        $('#customers-testimonials').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 0,
+		            autoplay: true,
+		            dots:true,
+		            autoplayTimeout: 4000,
+		            smartSpeed: 450,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 2
+		              },
+		              1170: {
+		                items: 3
+		              }
+		            }
+		        });
+        	});
+  </script>
+
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
